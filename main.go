@@ -15,9 +15,9 @@ func main() {
 
 
 	var unicode = "САШАРВО"
-    for i, v := range unicode {
-        fmt.Printf("character %#U starts at byte position %d\n", v, i)
-    }
+    	for i, v := range unicode {
+        	fmt.Printf("character %#U starts at byte position %d\n", v, i)
+    	}
 
 	
 	for j := 6; j <= 10; j++ {
